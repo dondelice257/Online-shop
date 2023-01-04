@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incrementation</title>
+ <link rel="stylesheet" href="style.css">
+  <script src="script.js" ></script>
+  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div id="body">
+        <h1 style="text-align: center;">DushiShop</h1>
+        <h2 style="background-color: #fff;text-align: center; font-size: 30px; width: 400px; color: orange;">Sell and Buy online with DushiShop</h2>
+        <div id="prices" >
+            <span id="unit" >
+                <h2>Prix unitaire : $ </h2>
+                <h2 id="pUnit"> 100</h2>
+            </span>
+            <span id="qt">
+                <h2>Quantité : </h2>
+                <h2 id="quantity">0</h2>
+            </span>
+            <span id="total">
+                <h2>Prix total : $</h2>
+                <h2 id="pTotal">0</h2>
+            </span>
+            <button type="submit" class="fa fa-shopping-cart" id="buy"></button>
+        </div>
+        <h2 style="text-align: center; font-size: 30px;position: absolute; right: 0; width: 600px; background-color: #fff; color: orange;">Scroll the menu below to discover the latest available products</h2>
+
+
+        <div id="cont">
+        
+            <button id="mine">-</button>
+            <h1 id="number">0</h1>
+            <button id="plus">+</button>
+          </div>
+            <button id="reset">Reset</button>
+            <button type="submit" id="submit">Submit</button>
+
+            
+
+        <h2 id="legend">
+            
+                <table>
+                    <tr>
+                        <td>Company Name : </td>
+                        <td id="companyName">TOYOTA</td>
+                    </tr>
+                    <tr>
+                        <td>Product Name : </td>
+                        <td id="productName">TVS Mugore Mwiza</td>
+                    </tr>
+                    <tr>
+                        <td>Guaranty : </td>
+                        <td id="guaranty">13 monts</td>
+                    </tr>
+                    <tr>
+                        <td>Company's contact : </td>
+                        <td id="contactCompany">+257 71 496 005</td>
+                    </tr>
+                    <tr>
+                        <td>Company's website : </td>
+                        <td id="websiteCompany">www.toyota.com</td>
+                    </tr>
+
+                </table>
+           
+        </h2>
+        <div id="products">
+            <ul id="line1">
+                <li><img src="car1.jpg" alt=""></li>
+                <li><img src="car2.jpg" alt=""></li>
+                <li><img src="car3.jpg" alt=""></li>
+                <li><img src="car4.jpg" alt=""></li>
+                <li><img src="car5.jpg" alt=""></li>
+
+            </ul>
+            <i id="prev" class="fa fa-angle-double-left"></i>
+            <i id="next" class="fa fa-angle-double-right"></i>
+
+        </div>
+    
+       
+
+    </div>
+  </body>
+</html>
