@@ -1,0 +1,135 @@
+   td{
+            transition: all 5s;
+        }
+
+        #buy{
+            font-size: 50px;
+            margin-top: 20px;
+            background-color: orange;
+            border: none;
+            color: greenyellow;
+            padding: 5px;
+        }
+
+        #prev, #next{
+            position: absolute;
+            top: 45%;
+            font-size: 40px;
+            background-color: blueviolet;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        #prev{
+            left: 5px;
+            color: rgb(255, 255, 255);
+        }
+        #next{
+            color: rgb(255, 255, 255);
+            right: 5px;
+        }
+
+        #products{
+            position: relative;
+            left: 505px;
+            bottom: 300px;
+            list-style: none;
+            overflow: hidden;
+            width: 500px;
+            
+        }
+        img{
+            width: 500px;
+            height: 350px;
+        }
+        #line1{
+            display: flex;
+            list-style: none;
+            position: relative;
+            left: 0px;
+            transition: all 2s ease;
+        }
+
+        #quantity, #pUnit, #pTotal{
+           
+         margin-left: 5px;
+        }
+
+        #body{
+            background-color: rgb(0, 255, 234);
+            width: 100%;
+        }
+
+        #prices{
+            text-align: center;
+            display: flex;
+            margin-left: 20px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        span{
+            display: flex;
+            margin-right: 20px;
+            background-color: aliceblue;
+            margin-top: 20px;
+            padding: 10px;
+            
+
+        }
+        h2{
+            font-size: 20px;
+            
+        }
+        #legend{
+            background-color: aliceblue;
+            margin: 20px;
+            padding: 15px;
+            width: 450px;
+        }
+        
+
+        #submit{
+            margin-left: 50px;
+            position: relative;
+            top: -40px;
+            font-size: 20px;
+            background-color:green;
+            color: #fff;
+            border: none;
+            padding: 5px;
+              }
+
+        #reset{
+            margin-left: 130px;
+            position: relative;
+            top: -40px;
+            font-size: 20px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            padding: 5px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        #cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            background-color: orange;
+            width: 250px;
+            margin-top: 30px;
+            margin-left: 100px;
+        }
+        #plus, #mine{
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+        }
+        h1{
+            margin: 30px;
+            font-size: 60px;
+        }
