@@ -1,4 +1,4 @@
-       var number = document.getElementById('number14');
+       var number = document.getElementById('number15');
         var plus = document.getElementById('plus');
         var mine = document.getElementById('mine');
         var reset = document.getElementById('reset');
